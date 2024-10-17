@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<header><h1>MOVIE DATABASE</h1></header>
+
+<div class="form">
+    <form action="#" method="post">
+        <label for="film">Nom du film :</label><br>
+        <input type="text" id="film" name="film" required><br><br>
+
+        <label for="realisateur">Réalisateur :</label><br>
+        <input type="text" id="realisateur" name="realisateur" required><br><br>
+
+        <label for="genre">Genre :</label><br>
+        <input type="text" id="genre" name="genre" required><br><br>
+
+        <label for="annee">Année de sortie :</label><br>
+        <input type="number" id="annee" name="annee" required><br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<script type="module" src="./js/api.js"></script>
+</body>
+</html>
